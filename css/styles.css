@@ -73,22 +73,34 @@ nav .seleccionado {
     margin: auto;
 }
 .tarjeta-juego {
-    margin: auto;
+    margin: 2rem auto;
     width: 25rem;
     max-width: 25rem;
-    padding-top: 5rem;
-}
-.tarjeta-juego-imagen {
-    
+    border-radius: 25px;
+    background-color: #fff;
+    min-height: 24vh;
 }
 .tarjeta-juego-imagen img{
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.tarjeta-juego-imagen img{
     width: 100%;
 }
 .tarjeta-juego-titulo p{
     text-align: left;
-    color: #fcecf0;
     font-weight: bold;
+    padding: 1em;
+}
+.tarjeta-juego-descripcion
+{
+    text-align: left;
+    padding: 0.5em 1em 2em 1em;
+    color: #3f3f3f;
+}
+.tarjeta-juego-descripcion ul
+{
+    list-style: none;
 }
 
 /* footer */
